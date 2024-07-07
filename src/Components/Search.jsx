@@ -2,8 +2,9 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <div>
-      search compnents
+    <div className='search-container'>
+    <input type="text" placeholder='search' />
+      
     </div>
   )
 }
