@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Marko+One&display=swap');
 
 * {
   padding: 0;
@@ -25,4 +26,13 @@ img {
 
 a{
   text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  
+
+}
+li{
+  list-style: none;
 }
