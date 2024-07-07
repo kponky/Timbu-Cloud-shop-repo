@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+
+.header2-container {
+  width: 100%;
+  padding-inline: 69px;
+  margin-top: 10px;
+}
+
+
+
+.header2-container .header2-a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* margin-top: 20px; */
+}
+
+.header2-container .header2-a .logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.header2-container .header2-a .logo h1 {
+  font-weight: 400;
+  font-family: "Lavishly Yours", cursive;
+  font-size: 90px;
+  color: #000;
+
+
+}
+
+.header2-container .header2-a .logo span {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28.8px;
+
+
+}
+
+.header2-container .header2-a .leftside {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+.header2-container .header2-a .leftside .search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #C0C0C0;
+  width: 600px;
+  margin-top: 20px;
+  border-radius: 50px;
+  height: 50px;
+  justify-content: space-between;
+  padding-inline: 10px;
+  padding: 10px;
+
+}
+
+.header2-container .header2-a .leftside .search-input input {
+  border: none;
+  padding-inline: 20px;
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #494949;
+
+}
+
+.header2-container .header2-a .leftside .search-input button {
+  border: none;
+  /* padding: 10px; */
+  background: #DAA520;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 57px;
+  height: 37px;
+  font-size: 17px;
+}
+
+.header2-container .header2-a .leftside .search-input button .icon {
+
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+  color: #fff;
+
+}
+
+.header2-container .header2-a .login-reg a {
+  margin-top: 20px;
+  color: #2A353D;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Lato;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+}
+
+.header2-container .header2-a .cart a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: #2A353D;
+  position: relative;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.header2-container .header2-a .cart a .icon {
+  font-size: 23px;
+}
+
+.header2-container .header2-a .cart a .badge {
+  position: absolute;
+  bottom: 15px;
+  background-color: #FF6666;
+  color: white;
+  border-radius: 50%;
+  padding: 1px;
+  height: 15px;
+  width: 13px;
+  left: 16px;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+.header2-container .header2-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

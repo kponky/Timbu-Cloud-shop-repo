@@ -11,7 +11,7 @@
 .header1-container .header-items{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   /* padding: 10px; */
   height: 100%;
   padding-inline: 10px;
