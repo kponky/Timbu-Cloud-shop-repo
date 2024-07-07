@@ -1,12 +1,64 @@
-import React from 'react'
+import {
+  faAngleDown,
+  faAngleRight,
+  faBolt,
+  faCarSide,
+  faEnvelopeOpen,
+  faEnvelopeSquare,
+  faGlobe,
+  faPersonWalking,
+} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import supportImg from "../assets/fluent_person-support-32-filled.png";
+import offerImg from "../assets/offer icon.png";
 
 const Header1 = () => {
   return (
-    <div>
-      header 1
-      
-    </div>
-  )
-}
+    <div className="header1">
+      <div className="support-center">
+        <img src={supportImg} alt="support adent" />
+        <p>Support Center</p>
+        <FontAwesomeIcon icon={faAngleRight} />
+      </div>
 
-export default Header1
+      <div className="yellow-line"></div>
+
+      <div className="support-center">
+        <FontAwesomeIcon icon={faPersonWalking} />
+        <p>Find Store</p>
+      </div>
+
+      <div className="support-center">
+        <i className="fa fa-envelope-o" aria-hidden="true"></i>
+        {/*<FontAwesomeIcon icon="fa-light fa-envelope" />*/}
+        <FontAwesomeIcon icon={faEnvelope} />
+        <p>Sales@fashionnest.com</p>
+      </div>
+
+      <div className="support-center">
+        <img src={offerImg} alt="" />
+        <p>Offers & Values</p>
+      </div>
+      <div className="support-center">
+        <FontAwesomeIcon icon={faBolt} />
+      </div>
+
+      <div className="support-center">
+        <FontAwesomeIcon icon={faCarSide} />
+        <p>.....Free International Delivery </p>
+      </div>
+
+      <div className="support-center">
+        <FontAwesomeIcon icon={faGlobe} />
+        <p>English </p>
+        <FontAwesomeIcon icon={faAngleDown} />
+
+        
+      </div>
+    </div>
+  );
+};
+
+export default Header1;
