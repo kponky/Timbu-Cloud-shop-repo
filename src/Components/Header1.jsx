@@ -11,7 +11,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import supportImg from "../assets/fluent_person-support-32-filled.png";
+import supportImg from "../assets/call-center-worker_30415.png";
 import offerImg from "../assets/offer icon.png";
 
 const Header1 = () => {

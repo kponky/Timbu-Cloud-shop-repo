@@ -8,6 +8,11 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Pagination, Autoplay } from "swiper/modules";
 import "../Styles/heroSection.css";
+import discountimg from '../assets/discount_726476.png'
+import callAgentIMg from '../assets/call-center-worker.png'
+import moneyImg from '../assets/noto-v1_money-bag (1).png'
+import deliveryVan from '../assets/delivery truck.jpg'
+
 
 const HeroSection = () => {
   return (
@@ -50,26 +55,28 @@ const HeroSection = () => {
         </>
       </div>
 
-      <div className="heroCards">
-        <img src="" alt="" />
-        <p>24/7 Support Services</p>
-        <span>we offer Support Any time</span>
-      </div>
-      <div className="heroCards">
-        <img src="" alt="" />
-        <p>Offers and Discounts</p>
-        <span>Back Returns in 7bworking Days</span>
-      </div>
-      <div className="heroCards">
-        <img src="" alt="" />
-        <p>MOney Back Guarantee</p>
-        <span>Gurantee within 30 days</span>
-      </div>
-      <div className="heroCards">
-        <img src="" alt="" />
-        <p>Worldwide Shipping</p>
-        <span>Order and get it deliver to your door step</span>
-      </div>
+     <div className="services-card">
+     <div className="heroCards">
+     <img src={callAgentIMg} alt="user-icon" />
+     <h5>24/7 Support Services</h5>
+     <span>we offer Support Any time</span>
+   </div>
+   <div className="heroCards">
+     <img src = {discountimg} alt="discount" />
+     <h5>Offers and Discounts</h5>
+     <span>Back Returns in 7bworking Days</span>
+   </div>
+   <div className="heroCards">
+     <img src= {moneyImg} alt="money bag" />
+     <h5>Money Back Guarantee</h5>
+     <span>Gurantee within 30 days</span>
+   </div>
+   <div className="heroCards">
+     <img src= {deliveryVan}alt="deliver-truck" />
+     <h5>Worldwide Shipping</h5>
+     <span>Order and get it deliver to your door step</span>
+   </div>
+     </div>
 
       <div className="latestProducts">
         <div className="product-icons">

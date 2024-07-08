@@ -1,21 +1,11 @@
-import React from "react";
-import logo from "../assets/Black-Brand.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
   faCartShopping,
   faSearch,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import AllCategories from "../Pages/AllCategories";
-import HomeComp from "./HomeComp";
-import Collection from "./Collection";
-import NewArrivals from "./NewArrivals";
-import WomanWear from "./WomanWear";
-import MensWear from "./MensWear";
-import Brands from "./Brands";
-import AboutUs from "./AboutUs";
-import ContactUs from "./ContactUs";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import "../Styles/header2.css";
 import Categories from "./Categories";
 
@@ -37,7 +27,6 @@ const Header2 = () => {
               placeholder="Search for your items..."
             />
             <button>
-              {" "}
               <FontAwesomeIcon icon={faSearch} className="icon" />
             </button>
           </div>
@@ -64,28 +53,19 @@ const Header2 = () => {
         <div className="headerList_items">
           <ul className="list-items">
             <li className="listed">Home</li>
-            <li className="listed">
+            <li className="listed listed-icon">
               Collection <FontAwesomeIcon icon={faAngleDown} />
             </li>
             <li className="listed">New Arrivals</li>
             <li className="listed">Women's Wears</li>
             <li className="listed">Men's Wears</li>
             <li className="listed">Brands</li>
-            <div className="buttons">
-            <button>About us</button>
-            <button>Contact us</button>
-            
-            </div>
           </ul>
-        </div>
 
-        <div className="about-contactus">
-          <button>
-            <AboutUs />
-          </button>
-          <button>
-            <ContactUs />
-          </button>
+          <div className="buttons">
+          <button>About us</button>
+          <button>Contact us</button>
+        </div>
         </div>
       </div>
     </div>
@@ -93,9 +73,3 @@ const Header2 = () => {
 };
 
 export default Header2;
-// <HomeComp />
-//         <Collection />
-//         <NewArrivals />
-//         <WomanWear />
-//         <MensWear />
-//         <Brands />
