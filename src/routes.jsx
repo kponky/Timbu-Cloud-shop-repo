@@ -5,6 +5,7 @@ import AboutUs from './Pages/AboutUs';
 import AllCategories from './Pages/AllCategories';
 import LatestProducts from './Components/LatestProducts';
 import LatestProductPage from './Pages/LatestProductPage';
+import FeatureProducts from './Pages/FeatureProducts';
 
 const routes = () => {
   return (
@@ -16,7 +17,11 @@ const routes = () => {
   <Route path='/aboutUs' element={<AboutUs/>} ></Route>
   <Route path='latestproduct' element = {<LatestProductPage/>}>
   </Route>
-  <Route path='lastestproduct/:id' element = {<LatestProductPage/>}>
+  <Route path='latestproduct/:id' element = {<LatestProductPage/>}>
+  </Route>
+  <Route path='featureproduct' element = {<FeatureProducts/>}>
+  </Route>
+  <Route path='featureproduct/:id' element = {<FeatureProducts/>}>
   </Route>
 
   
