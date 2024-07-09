@@ -49,13 +49,13 @@
 
 .latestproductPage-container .latestProduct-cards{
   /* background: goldenrod; */
-/* width: 100%; */
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(2, auto);
 gap: 10px;
 padding: 10px;
 margin-top: 20px;
+width: 100%;
 }
 
 

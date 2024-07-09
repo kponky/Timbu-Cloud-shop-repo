@@ -23,7 +23,7 @@ export const featuredata = [
     image: Image3,
     title: "Ballet Flats",
     description:
-      "A Party Gown is a glamorous and stylish dress designed for festive occasions and celebrations.  These gowns often feature eye-catching",
+      "A Party Gown is a glamorous and stylish dress designed for festive occasions and celebrations.  These gowns often feature eye-catching and brain loving ",
   },
   {
     id: "1",

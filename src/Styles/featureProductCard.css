@@ -1,0 +1,76 @@
+.featured-card-items {
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* display: grid; */
+  /* display: flex; */
+  align-items: left;
+  position: relative;
+  padding-inline: 25px;
+  color: #2A353D;
+  transition: transform 0.4s ease-in-out;
+  border-radius: 5px;
+}
+
+.featured-card-items a {
+  width: 315px;
+  height: 460px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  color: #2A353D;
+}
+
+
+.featured-card-items .f-card img {
+  width: 190px;
+  height: 214px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.featured-card-items:hover .f-card img {
+  transform: scale(1.1);
+  /* Scale up the image on hover */
+
+}
+
+.featured-card-items a .card-title h5 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  color: #2A353D;
+  padding-block: 8px;
+}
+
+.featured-card-items a .f-card .card-title {
+  width: 100%;
+}
+
+.featured-card-items a .f-card .card-title p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+  color: #2A353D;
+  margin-bottom: 30px;
+}
+
+
+.featured-card-items button {
+  width: 230px;
+  height: 55px;
+  top: 398px;
+  left: 33px;
+  padding: 16px 51px 16px 51px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  background: #2A353D;
+  color: #f9f9f9;
+font-family: Lato;
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
+}

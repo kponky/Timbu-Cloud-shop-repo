@@ -10,13 +10,12 @@ const FeatureProducts = () => {
   return (
     <div className='featuredproducts-container'>
     <div className="product-heading">
-    <h1>Our Featured Products</h1>
+    <h3>Our Featured Products</h3>
     <div className="icons">
     <FontAwesomeIcon icon={faAngleLeft}/>
     <FontAwesomeIcon icon={faAngleRight}/>
     </div>
     </div>
-    <div className="line"></div>
     <div className="featuredcards">
     {featuredata.map((item, i)=>(
       <FeaProductCard key={i} {...item}/>

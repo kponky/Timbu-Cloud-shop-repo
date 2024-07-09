@@ -15,6 +15,7 @@ import deliveryVan from "../assets/delivery truck.jpg";
 import LatestProductPage from "../Pages/LatestProductPage";
 import FeatureProducts from "../Pages/FeatureProducts";
 import Updates from "./Updates";
+import TodayDeal from "./TodayDeal";
 
 const HeroSection = () => {
   return (
@@ -81,6 +82,7 @@ const HeroSection = () => {
       <div>
         <LatestProductPage />
         <FeatureProducts/>
+        <TodayDeal/>
         <Updates/>
       </div>
 
