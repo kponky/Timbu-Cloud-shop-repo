@@ -1,5 +1,6 @@
 import React from "react";
 import footerLogo from "../assets/Black-Brand.png";
+import '../Styles/footer.css'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="footer-items">
           <ul>
             <li>Contact Us</li>
-            <li> FashionNest, 50 Olorunfunmi Street Ikeja, Lagos, Nigeria</li>
+            <li> FashionNest, 50 Olorunfunmi Street <br /> Ikeja, Lagos, Nigeria</li>
             <li>Support@FashionNest.com</li>
             <li>+23423456789010</li>
           </ul>

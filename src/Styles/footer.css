@@ -1,4 +1,44 @@
 
+.footer-wrapper{
+  background-color: #DAA520;
+  padding-inline: 60px;
+  padding-top: 50px;
+}
+
+.footer-wrapper .footer-top{
+ display: flex;
+ gap: 100px;
+}
+
+
+.footer-wrapper .footer-top .footer-items ul{
+ display: flex;
+flex-direction: column;
+padding-block: 10px;
+}
+.footer-wrapper .footer-top .footer-items ul li,
+.footer-wrapper .footer-top .footer-support ul li,
+.footer-wrapper .footer-top .footer-addres ul li{
+ display: flex;
+flex-direction: column;
+padding-block: 8px;
+}
+.footer-wrapper .footer-top ul li:nth-child(1){
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.004em;
+}
+
+.footer-wrapper .footer-logo img{
+  width: 200px;
+height: 100px;
+
+
+}
+
+
 
 
 

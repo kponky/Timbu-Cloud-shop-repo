@@ -1,0 +1,109 @@
+.updates-container {
+  margin-top: 30px;
+  width: 100%;
+  padding-inline: 60px;
+  background-color: #2A353D;
+  color: #ffff;
+  padding-block: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.updates-container .update-item h4 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-block: 10px;
+}
+
+.updates-container .update-item p {
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-block: 10px;
+}
+
+.updates-container .update-item .update-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.updates-container .update-item .update-input input {
+  border: 1px solid #fff;
+  background: transparent;
+  width: 508px;
+  height: 50px;
+  gap: 0px;
+  border-radius: 50px;
+}
+
+.updates-container .update-item .update-input button {
+  border: 1px solid #fff;
+  background: transparent;
+  width: 159px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.updates-container .download-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.updates-container .download-app .store {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+
+}
+
+.updates-container .download-app .store .appstore {
+  display: flex;
+  border: 1px solid white;
+  justify-content: space-around;
+  gap: 10px;
+  justify-content: center;
+  padding-inline: 8px;
+  width: 148px;
+  height: 46px;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.updates-container .download-app .store .appstore .app-txt p {
+  font-size: 8px;
+}
+
+.updates-container .download-app .store .appstore .app-txt h5 {
+  font-size: 12px;
+}
+
+.updates-container .download-app h5 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  /* padding-bl/ock: 10px; */
+
+}
+
+.updates-container .download-app img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
