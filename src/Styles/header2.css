@@ -170,7 +170,7 @@
   justify-content: space-around;
 }
 
-.header2-container .header2-b .headerList_items .list-items .listed:hover{
+.header2-container .header2-b .headerList_items .list-items .listed:hover {
   color: #DAA520;
 }
 
@@ -180,17 +180,59 @@
   gap: 10px;
 }
 
-.header2-container .header2-b .headerList_items .buttons{
+.header2-container .header2-b .headerList_items .buttons {
   display: flex;
   align-items: center;
-  gap:  7px;
-  
+  gap: 7px;
+
 }
 
-.header2-container .header2-b .headerList_items .buttons button{
+.header2-container .header2-b .headerList_items .buttons button {
   border: none;
   padding: 10px;
   background: #D3D3D3;
   border-radius: 5px;
   font-size: 15px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .header2-container {
+    width: 100%;
+    padding-inline: 10px;
+    margin-top: 10px;
+  }
+
+  .header2-container .header2-a {
+    width: 100%;
+
+  }
+
+  .header2-container .header2-a .logo {
+    display: none;
+  }
+
+  .header2-container .header2-a .leftside .search-input {
+    width: 100%;
+    margin-block: 20px;
+    margin-inline: 20px;
+  }
+
+  .header2-container .header2-a .login-reg {
+    display: none;
+  }
+
+  .header2-container .header2-a .cart a {
+    display: none;
+  }
+
+  .header2-container .header2-b{
+    display: none;
+  }
+
+
+
+
+
 }
