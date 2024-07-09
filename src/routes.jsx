@@ -6,6 +6,8 @@ import AllCategories from './Pages/AllCategories';
 import LatestProducts from './Components/LatestProducts';
 import LatestProductPage from './Pages/LatestProductPage';
 import FeatureProducts from './Pages/FeatureProducts';
+import Cart from './Components/Cart';
+// import MainLayout from './Layouts/MainLayout';
 
 const routes = () => {
   return (
@@ -23,6 +25,7 @@ const routes = () => {
   </Route>
   <Route path='featureproduct/:id' element = {<FeatureProducts/>}>
   </Route>
+  <Route path='/cart' element= {<Cart/>}> </Route>
 
   
 

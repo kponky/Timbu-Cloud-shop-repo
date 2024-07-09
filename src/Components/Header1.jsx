@@ -19,6 +19,7 @@ import React, { useState } from "react";
 import supportImg from "../assets/call-center-worker_30415.png";
 import offerImg from "../assets/offer icon.png";
 import '../Styles/header1.css'
+import { Link } from "react-router-dom";
 
 const Header1 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -41,10 +42,12 @@ const Header1 = () => {
 
         <div className="carts">
         <FontAwesomeIcon icon={faUser} className="icon"  />
-        <div className="iconn">
-        <FontAwesomeIcon icon={faCartShopping} className="icon" />
-        <span className="badge">2</span>
-        </div>
+       <Link to= "/cart">
+       <div className="iconn">
+       <FontAwesomeIcon icon={faCartShopping} className="icon" />
+       <span className="badge">2</span>
+       </div>
+       </Link>
       </div>
       </nav>
 

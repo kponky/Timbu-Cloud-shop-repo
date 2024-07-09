@@ -5,12 +5,19 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/header2.css";
 import { faWindows } from "@fortawesome/free-brands-svg-icons";
 import menuIcon from '../assets/shape.png'
 
 const HeaderNav = () => {
+
+  // const [menuOpen, setMenuOpen] = useState(false);
+
+  // const handleMenuToggle = () => {
+  //   setMenuOpen(!menuOpen);
+
+  
   return (
     <div className="header2-container">
       <div className="header2-a">
@@ -40,7 +47,7 @@ const HeaderNav = () => {
           </div>
 
           <div className="cart">
-            <a href="#">
+            <a href="/cart">
               <FontAwesomeIcon icon={faCartShopping} className="icon" />
               <span className="badge">2</span>
               <p>Cart</p>

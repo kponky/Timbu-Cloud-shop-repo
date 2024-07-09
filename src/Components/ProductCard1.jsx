@@ -2,8 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/productCard1.css";
 import { formatCurrency } from "../utils/helpers";
+import { useCart } from "../context/CartContext";
 
 const ProductCard1 = ({ item }) => {
+  const {addToCart} = useCart()
+
+  // const { addToCart } = useCart ();
+
   return (
     <div className="cards__items">
       <Link to={`/latestproduct/${item.id}`}>
@@ -27,7 +32,7 @@ const ProductCard1 = ({ item }) => {
           <div className="save-price">
             <p> <span>Save  </span>N{item.saveprice}</p>
             <button className="btn2">{item.discount}</button>
-            <button className="btn">Add to Cart</button>
+            <button className="btn" onClick={() =>addToCart(item, item.id)} >Add to Cart</button>
           </div>
         </div>
       </Link>
