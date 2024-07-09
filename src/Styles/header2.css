@@ -1,12 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 
 
+
+
+
+.categories {
+  display: flex;
+  width: 230px;
+  height: 72px;
+  border-radius: 10px 10px 0 0;
+  background-color: #2A353D;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+.categories h6 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: 0.004em;
+
+
+}
+
 .header2-container {
   width: 100%;
   padding-inline: 69px;
   margin-top: 10px;
 
 }
+
+
+
 
 
 

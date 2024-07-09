@@ -5,10 +5,11 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import "../Styles/header2.css";
-import Categories from "./Categories";
+import { faWindows } from "@fortawesome/free-brands-svg-icons";
 
-const Header2 = () => {
+const HeaderNav = () => {
   return (
     <div className="header2-container">
       <div className="header2-a">
@@ -48,7 +49,11 @@ const Header2 = () => {
       </div>
 
       <div className="header2-b">
-        <Categories />
+        <div className="categories">
+          <FontAwesomeIcon icon={faWindows} />
+          <h6>All Categories</h6>
+          <FontAwesomeIcon icon={faAngleDown} />
+        </div>
         <div className="headerList_items">
           <ul className="list-items">
             <li className="listed">Home</li>
@@ -62,13 +67,13 @@ const Header2 = () => {
           </ul>
 
           <div className="buttons">
-          <button>About us</button>
-          <button>Contact us</button>
-        </div>
+            <button>About us</button>
+            <button>Contact us</button>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Header2;
+export default HeaderNav;
