@@ -107,3 +107,25 @@
   height: 30px;
   object-fit: contain;
 }
+
+@media only screen and (max-width: 900px) {
+  .updates-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .updates-container .update-item .update-input {
+    flex-direction: column;
+    padding-block: 20px;
+  }
+
+  .updates-container .update-item .update-input input {
+    border: 1px solid #fff;
+    background: transparent;
+    width: 100%;
+    flex-direction: column;
+    height: 50px;
+    gap: 0px;
+    border-radius: 50px;
+  }
+}

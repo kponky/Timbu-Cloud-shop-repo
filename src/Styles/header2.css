@@ -4,19 +4,7 @@
 
 
 
-.categories {
-  display: flex;
-  width: 230px;
-  height: 72px;
-  border-radius: 10px 10px 0 0;
-  background-color: #2A353D;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  color: #fff;
-  font-size: 20px;
-}
+
 
 .categories h6 {
   font-family: Lato;
@@ -34,10 +22,6 @@
   margin-top: 10px;
 
 }
-
-
-
-
 
 
 .header2-container .header2-a {
@@ -171,7 +155,26 @@
   display: flex;
   align-items: center;
   gap: 17px;
+}
 
+.categories {
+  display: flex;
+  width: 230px;
+  height: 72px;
+  border-radius: 10px 10px 0 0;
+  background-color: #2A353D;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+.categories img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
 .header2-container .header2-b .headerList_items .list-items {

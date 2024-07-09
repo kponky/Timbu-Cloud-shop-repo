@@ -8,7 +8,7 @@ const TodayDeal = () => {
   return (
     <div className="todayDeal-container">
       <div className="product-heading">
-        <h1>Our Featured Products</h1>
+        <h1>Today's Deal</h1>
       </div>
 
       <div className="deals-cards">

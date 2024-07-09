@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../Styles/header2.css";
 import { faWindows } from "@fortawesome/free-brands-svg-icons";
+import menuIcon from '../assets/shape.png'
 
 const HeaderNav = () => {
   return (
@@ -50,7 +51,7 @@ const HeaderNav = () => {
 
       <div className="header2-b">
         <div className="categories">
-          <FontAwesomeIcon icon={faWindows} />
+          <img src= {menuIcon}alt="" />
           <h6>All Categories</h6>
           <FontAwesomeIcon icon={faAngleDown} />
         </div>
