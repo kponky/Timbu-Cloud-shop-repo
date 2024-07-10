@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 
-
-
-
-
-
-
 .categories h6 {
   font-family: Lato;
   font-size: 20px;
@@ -50,7 +44,7 @@
   font-family: Lato;
   font-size: 24px;
   font-weight: 900;
-  line-height: 28.8px;
+  line-height: 28px;
 
 
 }
@@ -85,6 +79,8 @@
   font-weight: 600;
   line-height: 24px;
   color: #494949;
+  background-color: transparent;
+
 
 }
 
@@ -233,12 +229,18 @@
 
   .header2-container {
     width: 100%;
-    padding-inline: 10px;
+    padding-inline: 20px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .header2-container .header2-a {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 
   }
 
@@ -246,10 +248,25 @@
     display: none;
   }
 
+  .header2-container .header2-a .leftside{
+    width: 100%;
+    flex-direction: column;
+   
+  
+  }
+
+
+
   .header2-container .header2-a .leftside .search-input {
     width: 100%;
-    margin-block: 20px;
-    margin-inline: 20px;
+
+    
+    /* margin-block: 20px; */
+    /* margin-inline: 20px; */
+  }
+
+  .header2-container .header2-a .leftside .search-input input{
+    background-color: transparent;
   }
 
   .header2-container .header2-a .login-reg {

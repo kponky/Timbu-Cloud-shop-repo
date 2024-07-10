@@ -3,27 +3,9 @@
 .hero-container {
   width: 100%;
   position: relative;
-
-
-  /* background: rgb(191,184,162);
-background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 65%); */
-
-  /* background: hsla(48, 100%, 51%, 1);
-  background: linear-gradient(225deg, hsla(48, 100%, 51%, 1) 0%, hsla(52, 83%, 59%, 1) 11%, hsla(46, 18%, 69%, 1) 56%, hsla(46, 18%, 69%, 1) 87%);
-  background: -moz-linear-gradient(225deg, hsla(48, 100%, 51%, 1) 0%, hsla(52, 83%, 59%, 1) 11%, hsla(46, 18%, 69%, 1) 56%, hsla(46, 18%, 69%, 1) 87%);
-  background: -webkit-linear-gradient(225deg, hsla(48, 100%, 51%, 1) 0%, hsla(52, 83%, 59%, 1) 11%, hsla(46, 18%, 69%, 1) 56%, hsla(46, 18%, 69%, 1) 87%);
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFCE06", endColorstr="#EDD742", GradientType=1);
-  width: 100%;
-  height: 520px;
-
-  overflow: hidden; */
-
 }
 
 .hero-container .hero-header .heroText {
-
-  background: hsla(48, 100%, 51%, 1);
-  /* background: linear-gradient(225deg, hsla(48, 100%, 51%, 1) 0%, hsla(52, 83%, 59%, 1) 11%, hsla(46, 18%, 69%, 1) 56%, hsla(46, 18%, 69%, 1) 87%); */
   background: -moz-linear-gradient(225deg, hsla(48, 100%, 51%, 1) 0%, hsla(52, 83%, 59%, 1) 11%, hsla(46, 18%, 69%, 1) 56%, hsla(46, 18%, 69%, 1) 87%);
   background: -webkit-linear-gradient(225deg, hsla(48, 100%, 51%, 1) 0%, hsla(52, 83%, 59%, 1) 11%, hsla(46, 18%, 69%, 1) 56%, hsla(46, 18%, 69%, 1) 87%);
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFCE06", endColorstr="#EDD742", GradientType=1);
@@ -35,17 +17,12 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   z-index: 3;
 }
 
-/* font-family: "Marko One", serif; */
-
-
 .hero-container .hero-header {
   display: flex;
   align-items: center;
   width: 100%;
   padding-top: 50px;
 }
-
-
 
 .hero-container .hero-header .heroText {
   display: flex;
@@ -59,7 +36,6 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   color: #2A353D;
   position: relative;
   font-family: Lato;
-  /* font-family: "Lavishly Yours", cursive; */
 }
 
 .hero-container .hero-header .heroText h2:nth-child(2) {
@@ -75,7 +51,6 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
 }
 
 .hero-container .hero-header .heroText h2:nth-child(2) p {
-
   font-family: Marko One;
   font-size: 60px;
   font-weight: 400;
@@ -83,7 +58,6 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   letter-spacing: 0.004em;
   color: #701A15;
 }
-
 
 .hero-container .hero-header .heroText h2:nth-child(3) {
   font-family: Marko One;
@@ -94,8 +68,6 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   color: #701A15;
   display: flex;
   gap: 20px;
-  /* position: relative; */
-
 }
 
 .hero-container .hero-header .heroText h2:nth-child(3) span {
@@ -122,12 +94,9 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   font-family: Lato;
   font-size: 18px;
   font-weight: 900;
-  bottom: 170px;
-  left: 600px;
   bottom: 180px;
+  left: 600px;
   z-index: 1;
-
-
 }
 
 .hero-container .hero-header .heroText .btn {
@@ -144,18 +113,7 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   font-weight: 700;
   border-radius: 20px;
   border: none;
-
-
 }
-
-
-/* .hero-container .heroText .hero__img {
-  right: 69px;
-  bottom: 50px;
-  z-index: 99; 
-
-} */
-
 
 .hero-container .hero__img .heroimg {
   width: 800px;
@@ -164,8 +122,6 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   position: absolute;
   top: -30px;
   right: -100px;
-
-
 }
 
 .hero-container .services-card {
@@ -176,7 +132,6 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   gap: 10px;
   margin-top: 14px;
   text-align: center;
-
 }
 
 .hero-container .services-card .heroCards {
@@ -184,7 +139,7 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   width: 349px;
   height: 145px;
   border-radius: 10px;
-  padding: 18px 20px 18px 20px;
+  padding: 18px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,49 +169,32 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
   font-weight: 500;
   line-height: 21.6px;
   text-align: center;
-
 }
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 900px) {
-
-  .hero-container {
-    width: 100%;
+  .hero-container .hero-header .heroText {
+    padding-inline: 50px;
+    width: 10%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     text-align: center;
-
   }
 
   .hero-container .hero-header .heroText {
     width: 100%;
-    padding-inline: 10px;
-    height: 550px;
-
-
+    height: 750px;
   }
 
   .hero-container .hero-header {
     display: flex;
     flex-direction: block;
     width: 100%;
-      padding-top: 20px;
-    width: 100%;
-
+    padding-top: 20px;
   }
 
   .hero-container .hero-header .heroText h2:nth-child(1) {
     font-size: 40px;
     font-weight: 700;
-
   }
 
   .hero-container .hero-header .heroText h2:nth-child(2) {
@@ -264,15 +202,10 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
     font-size: 35px;
     gap: 10px;
     text-align: center;
-    margin-left: 30px;
-    
-
   }
 
   .hero-container .hero-header .heroText h2:nth-child(2) p {
-
     font-size: 40px;
-
   }
 
   .hero-container .hero-header .heroText h2:nth-child(3) {
@@ -288,36 +221,27 @@ background: linear-gradient(122deg, rgba(191,184,162,1) 46%, rgba(237,215,66,1) 
     font-size: 35px;
     font-weight: 400;
     line-height: 80px;
-
-
   }
 
   .hero-container .hero-header .heroText .heroBadge {
     padding: 10px;
     width: 60px;
     font-weight: 900;
-   bottom: 140px;
-    left: 275px;
-
-
+    bottom: 180px;
+    left: 280px;
   }
 
-  .hero-container .hero-header .heroText .btn{
+  .hero-container .hero-header .heroText .btn {
     width: 100%;
     margin-inline: 15px;
-    /* margin-block: 80px; */
-   
   }
 
-  
-.hero-container .hero__img .heroimg {
-display: none;
-}
+  .hero-container .hero__img .heroimg {
+    display: none;
+  }
 
-.hero-container .services-card {
-  flex-direction: column;
-  margin-top: 30px;
-
-}
-
+  .hero-container .services-card {
+    flex-direction: column;
+    margin-top: 30px;
+  }
 }

@@ -54,6 +54,7 @@
 .card-img {
   overflow: hidden;
 }
+
 .cards__items a .card-img img {
   width: 190px;
   height: 214px;
@@ -62,7 +63,8 @@
 }
 
 .cards__items:hover .card-img img {
-  transform: scale(1.1); /* Scale up the image on hover */
+  transform: scale(1.1);
+  /* Scale up the image on hover */
 }
 
 .cards__items a .item {
@@ -80,16 +82,16 @@
   padding-block: 8px;
 }
 
-  .cards__items a .item p {
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: justify;
-    color: #2A353D;
+.cards__items a .item p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+  color: #2A353D;
 
 
-  }
+}
 
 .cards__items a .price {
   display: flex;
@@ -161,4 +163,12 @@
 .cards__items a .save-price .btn:hover {
 
   background-color: #ab7d08;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .card-img {
+    justify-content: center;
+    display: flex;
+  }
 }

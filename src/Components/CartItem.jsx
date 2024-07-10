@@ -1,8 +1,7 @@
 import { faMinus, faPlus, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { useCart } from "../contexts/CartContext";
-import { formatCurrency } from "../utils/helpers";
+import { useCart } from "../context/CartContext";
 
 const CartItem = ({ item }) => {
   const { increaseQuantity, decreaseQuantity, removeFromCart } = useCart();
@@ -22,7 +21,7 @@ const CartItem = ({ item }) => {
       <div className="card-item_detail">
         <div className="card__item1">
           <p>{item.title}</p>
-          <p>{formatCurrency(item.discount, "USD")}</p>
+          <p>{item.discount}</p>
         </div>
         <div className="card__item2">
           <div className="quantity-btns">

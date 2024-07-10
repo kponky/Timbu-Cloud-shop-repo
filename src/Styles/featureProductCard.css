@@ -74,3 +74,28 @@ font-size: 17px;
 font-weight: 700;
 line-height: 21px;
 }
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .featured-card-items a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .featured-card-items .f-card{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .featured-card-items a .card-title h5 {
+    text-align: left;
+  }
+
+}
+  
