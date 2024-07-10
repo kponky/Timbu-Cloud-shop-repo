@@ -20,41 +20,45 @@ const HeaderNav = () => {
   
   return (
     <div className="header2-container">
-      <div className="header2-a">
-        <div className="logo">
-          <h1>
-            F<span>ashionnest</span>
-          </h1>
-        </div>
+    <div className="header2-a">
+    <div className="logo">
+    <h1>
+      F<span>ashionnest</span>
+    </h1>
+  </div>
 
-        <div className="leftside">
-          <div className="search-input">
-            <input
-              type="text"
-              name="search item"
-              placeholder="Search for your items..."
-            />
-            <button>
-              <FontAwesomeIcon icon={faSearch} className="icon" />
-            </button>
-          </div>
+  <div className="search-input">
+  <input
+    type="text"
+    name="search item"
+    placeholder="Search for your items..."
+  />
+  <button>
+    <FontAwesomeIcon icon={faSearch} className="icon" />
+  </button>
+</div>
 
-          <div className="login-reg">
-            <a href="#">
-              <FontAwesomeIcon icon={faUser} />
-              <span>Login/Registration</span>
-            </a>
-          </div>
+<div className="login-cart">
+<div className="login-reg">
+<a href="/">
+  <FontAwesomeIcon icon={faUser} />
+  <span>Login/Registration</span>
+</a>
+</div>
 
-          <div className="cart">
-            <a href="/cart">
-              <FontAwesomeIcon icon={faCartShopping} className="icon" />
-              <span className="badge">2</span>
-              <p>Cart</p>
-            </a>
-          </div>
-        </div>
-      </div>
+<div className="cart">
+<a href="/cart">
+  <FontAwesomeIcon icon={faCartShopping} className="icon" />
+  <span className="badge">2</span>
+  <p>Cart</p>
+</a>
+</div>
+</div>
+
+
+    
+    </div>
+    
 
       <div className="header2-b">
         <div className="categories">

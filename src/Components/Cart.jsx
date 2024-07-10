@@ -1,6 +1,6 @@
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CartItem from "./CartItem";
 import { useCart } from "../context/CartContext";
@@ -14,16 +14,15 @@ import '../Styles/cart.css'
 import '../Styles/header1.css'
 import '../Styles/header2.css'
 
-const Cart = ({ setOpenCart }) => {
+const Cart = () => {
   const { cart, total, clearCart } = useCart();
+  const [openCart, setOpenCart] = useState(false)
   // const navigate = useNavigate();
 
   return (
     <>
-    <HeaderNav />
       <Header1 />
-     
-
+      <HeaderNav />
       <div className="cart">
       <div className="cart-item-con">
       <div className="cart-card">

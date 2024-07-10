@@ -36,19 +36,23 @@ const Header1 = ({openCart, setOpenCart}) => {
           <FontAwesomeIcon icon= { menuOpen ? faTimes : faBars} className="icon"  />
 
           <div className="logo">
-          <h1>
-            F<span>ashionnest</span>
-          </h1>
+         <Link to= "/">
+         <h1>
+         F<span>ashionnest</span>
+       </h1>
+         </Link>
         </div>
         </div>
 
         <div className="carts">
         <FontAwesomeIcon icon={faUser} className="icon"  />
         <div className="iconn">
-        <button onClick={() => setOpenCart(!openCart)}>
+        <Link to= '/cart'>
         <FontAwesomeIcon icon={faCartShopping} className="icon" />
         {cart.length > 0 && <span className="badge">{cart.length}</span>}
-        </button>
+        </Link>
+      
+     
         </div>
       </div>
       </nav>
