@@ -58,7 +58,7 @@ const CardInfo = () => {
         </div>
         </div>
         <span>
-          Your payment information is protected with  <br /> industry-leading
+          Your payment information is protected with industry-leading
           security measures
         </span>
    
