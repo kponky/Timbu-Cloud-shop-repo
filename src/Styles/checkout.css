@@ -32,7 +32,7 @@
 }
 
 
-.checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader button{
+.checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader button {
   padding: 8px;
   border-radius: 8px;
   background: #49494936;
@@ -68,32 +68,32 @@
   border-radius: 0 0 5px 5px;
 }
 
-.checkout-wrapper .freeShipping  .left{
+.checkout-wrapper .freeShipping .left {
   display: flex;
   align-items: center;
 }
-.checkout-wrapper .freeShipping  .left p{
+
+.checkout-wrapper .freeShipping .left p {
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
-  text-align: left;
-  
-}
-.checkout-wrapper .freeShipping  .right p{
-  font-size: 14px;
-  font-weight: 400;
-  text-align: left;
-  
-  
+
 }
 
-.checkout-wrapper .freeShipping .left img{
+.checkout-wrapper .freeShipping .right p {
+  font-size: 14px;
+  font-weight: 200;
+
+
+}
+
+.checkout-wrapper .freeShipping .left img {
   width: 30px;
   height: 30px;
   object-fit: contain;
 }
 
-.checkout-wrapper .paymentMethods{
+.checkout-wrapper .paymentMethods {
   display: flex;
   justify-content: space-between;
   padding-inline: 20px;
@@ -104,22 +104,22 @@
   border-radius: 5px;
 }
 
-.checkout-wrapper .paymentMethods  h5{
+.checkout-wrapper .paymentMethods h5 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   color: #DAA520;
 }
 
-.checkout-wrapper .paymentMethods .cards div{
+.checkout-wrapper .paymentMethods .cards div {
   display: flex;
   gap: 10px;
   padding-block: 8px;
 }
 
-.checkout-wrapper .paymentMethods .cards div img{
-width: 50px;
-height: 20px;
+.checkout-wrapper .paymentMethods .cards div img {
+  width: 50px;
+  height: 20px;
 }
 
 .checkout-wrapper .paymentMethods .selectanother {
@@ -130,25 +130,100 @@ height: 20px;
   margin-right: 40px;
 
 }
-.checkout-wrapper .paymentMethods .selectanother p:nth-child(1){
+
+.checkout-wrapper .paymentMethods .selectanother p:nth-child(1) {
   font-size: 18px;
   font-weight: 700;
   padding: 5px;
 
 
-  
+
 }
-.checkout-wrapper .paymentMethods .selectanother p:nth-child(2){
+
+.checkout-wrapper .paymentMethods .selectanother p:nth-child(2) {
   font-size: 16px;
-  font-weight: 400; 
-  background: #FFFCE1;  
+  font-weight: 400;
+  background: #FFFCE1;
   padding: 5px;
   border-radius: 5px;
 }
 
-.checkout-right{
+.checkout-right {
   background: #F3F3F3;
-  border-radius: 0 0  5px 5px;
+  border-radius: 0 0 5px 5px;
   padding-bottom: 10px;
   height: 500px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .checkout-wrapper {
+    width: 100%;
+    grid-template-columns: auto;
+    gap: 1rem;
+    padding-inline: 10px;
+    overflow-x: hidden;
+    margin-top: 10px;
+
+  }
+
+  .checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader h4 {
+    font-size: 24px;
+  }
+
+  .checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader button {
+    padding: 6px;
+    font-size: 17px;
+  }
+
+  .checkout-wrapper .checkout-left .shoppingAddress .order-name {
+    font-size: 16px;
+    font-weight: 600;
+   }
+
+   .checkout-wrapper .checkout-left .shoppingAddress span {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .checkout-wrapper .freeShipping {
+   
+    align-items: center;
+    padding-block: 20px;
+    justify-content: space-between;
+    padding-inline: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .checkout-wrapper .freeShipping .left{
+    display: flex;
+    gap: 20px;
+  }
+
+  .checkout-wrapper .freeShipping .left p {
+    font-size: 12px;
+    font-weight: 400;
+  
+  }
+
+  .checkout-wrapper .freeShipping .right p {
+  display: none;
+  
+  }
+
+  .checkout-wrapper .freeShipping .left img {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .checkout-wrapper .paymentMethods {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items:flex-start;
+    margin-inline: 30px;
+      }
+
 }

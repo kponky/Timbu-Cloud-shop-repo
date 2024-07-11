@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/deliverySum.css"
+import { Link } from "react-router-dom";
 
 const DeliverySum2 = () => {
   return (
@@ -37,7 +38,10 @@ const DeliverySum2 = () => {
       </div>
 
       <div className="checkout-btn">
-        <button className="btn">Pay Order</button>
+      <Link to='/cardInfo'>
+      <button className="btn">Pay Order</button>
+
+      </Link>
       </div>
     </div>
   );

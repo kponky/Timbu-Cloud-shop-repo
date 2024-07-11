@@ -4,7 +4,7 @@
 
 }
 
-.deliverSummary-container .heading{
+.deliverSummary-container .heading {
   background: #2A353D;
   border-radius: 5px 5px 0 0;
   padding-inline: 30px;
@@ -12,133 +12,138 @@
   color: #ffff;
   margin-bottom: 40px;
 }
-.deliverSummary-container .heading h4{
+
+.deliverSummary-container .heading h4 {
   font-family: Lato;
   font-size: 30px;
   font-weight: 600;
-  
+
 }
 
-.deliverSummary-container .delivery-card{
+.deliverSummary-container .delivery-card {
   display: flex;
   justify-content: space-between;
   background-color: #D9D9D9;
-  width: 98%;
+  width: 100%;
 
 }
-.deliverSummary-container .delivery-card p{
+
+.deliverSummary-container .delivery-card p {
   font-family: Lato;
   font-size: 17px;
   font-weight: 600;
 }
 
-.deliverSummary-container .delivery-card .promo-code{
+.deliverSummary-container .delivery-card .promo-code {
   background-color: #D9D9D9;
   background-color: transparent;
   border: none;
-height: 55px;
-
-display: flex;
-align-items: center;
-justify-content: left;
-padding-inline: 30px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-inline: 30px;
 
 }
 
-.deliverSummary-container .delivery-card .apply{
+.deliverSummary-container .delivery-card .apply {
   background: #C2C2C2;
-width: 70px;
-height: 55px;
-display: flex;
-align-items: center;
-justify-content: center;
-  
+  width: 70px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.deliverSummary-container .discount{
+.deliverSummary-container .discount {
   padding-inline: 30px;
   margin-top: 30px;
   font-family: Lato;
   font-size: 14px;
   font-weight: 700;
   color: #e35050;
-  }
- 
-  .deliverSummary-container .total-details div{
-display: flex;
-justify-content: space-between;
-padding-block: 10px;
-font-family: Lato;
-font-size: 16px;
-font-weight: 600;
-width: 98%;
+}
+
+.deliverSummary-container .total-details div {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
 
 
-  }
+}
 
-  .deliverSummary-container .total-details div p{
-padding-inline: 30px;
-  }
-  .deliverSummary-container .total-details div span{
-padding-inline: 10px;
-  }
+.deliverSummary-container .total-details div p {
+  padding-inline: 30px;
+}
 
-  .deliverSummary-container  .checkout-btn{
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-     padding-inline: 30px;
- 
-    }
-  .deliverSummary-container  .checkout-btn button{
-    width: 407px;
-    height: 55px;
-    padding: 17px 10px 16px 10px;
-    border-radius: 20px;
-    margin-top: 20px;
-    font-weight: 700;
-    font-size: 17px;
-    font-family: Lato;
-    /* border: none; */
-    
-  }
+.deliverSummary-container .total-details div span {
+  padding-inline: 10px;
+}
 
-  .deliverSummary-container  .checkout-btn .btn {
-    background-color: #DAA520;
-    border: 1px solid #C0C0C0;
-    transition: 0.3s ease;
+.deliverSummary-container .checkout-btn {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 30px;
 
-     
-  }
-  .deliverSummary-container  .checkout-btn .btn:hover{
-    color: #DAA520;
-    background: transparent;
-    border: 2px solid #DAA520;
-    
-  }
-  .deliverSummary-container  .checkout-btn .btn2{
-    color: black;
-    /* background: #C0C0C0; */
-    background-color: transparent;
-    border: 1px solid #C0C0C0;
-    transition: 0.3s ease;
- }
+}
 
- .deliverSummary-container  .checkout-btn .btn2:hover{
+.deliverSummary-container .checkout-btn button {
+  width: 407px;
+  height: 55px;
+  padding: 17px 10px 16px 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: Lato;
+  /* border: none; */
+
+}
+
+.deliverSummary-container .checkout-btn .btn {
+  background-color: #DAA520;
+  border: 1px solid #C0C0C0;
+  transition: 0.3s ease;
+
+
+}
+
+.deliverSummary-container .checkout-btn .btn:hover {
+  color: #DAA520;
+  background: transparent;
+  border: 2px solid #DAA520;
+
+}
+
+.deliverSummary-container .checkout-btn .btn2 {
+  color: black;
+  /* background: #C0C0C0; */
+  background-color: transparent;
+  border: 1px solid #C0C0C0;
+  transition: 0.3s ease;
+}
+
+.deliverSummary-container .checkout-btn .btn2:hover {
   background: #DAA520;
- }
+}
 
 
 
 
- @media only screen and (max-width: 900px) {
- 
+@media only screen and (max-width: 900px) {
+
   .deliverSummary-container {
     width: 100%;
-  
+
   }
 
-  .deliverSummary-container  .checkout-btn button{
+  .deliverSummary-container .checkout-btn button {
     width: 100%;
     height: 55px;
     padding: 17px 10px 16px 10px;
@@ -148,7 +153,7 @@ padding-inline: 10px;
     font-size: 17px;
     font-family: Lato;
     /* border: none; */
-    
+
   }
 
 

@@ -7,6 +7,7 @@ import LatestProductPage from './Pages/LatestProductPage';
 import FeatureProducts from './Pages/FeatureProducts';
 import Cart from './Components/Cart';
 import Checkout from './Components/Checkout';
+import CardInfo from './Components/CardInfo';
 // import MainLayout from './Layouts/MainLayout';
 
 const routes = () => {
@@ -27,6 +28,7 @@ const routes = () => {
   </Route>
   <Route path='/cart' element= {<Cart/>}> </Route>
   <Route path='/checkout' element= {<Checkout/>}> </Route>
+  <Route path='/cardInfo' element= {<CardInfo/>}> </Route>
 
   
 

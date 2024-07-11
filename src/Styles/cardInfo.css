@@ -1,0 +1,203 @@
+.cardInfo-wrapper {
+  width: 100%;
+  padding-inline: 60px;
+  font-family: Lato;
+}
+
+.cardInfo-wrapper .cardInfo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cardInfo-wrapper .cardInfo-header .cards img {
+  width: 70px;
+  height: 50px;
+  object-fit: contain;
+
+}
+
+.cardInfo-wrapper .cardInfo-header .cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardInfo-wrapper .cardInfo-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardInfo-wrapper .cardInfo-inputs input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+
+}
+
+.cardInfo-wrapper .cardInfo-inputs input::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.004em;
+  color: #000;
+}
+
+.cardInfo-wrapper .cardInfo-inputs .input-control {
+  background-color: #EEEEEE;
+  border: none;
+  padding: 10px;
+  display: flex;
+  height: 75px;
+  border-radius: 27px;
+  padding-inline: 40px;
+}
+
+.cardInfo-wrapper .cardInfo-inputs .mm-yy {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.cardInfo-wrapper .cardInfo-inputs .mm-yy .mm,
+.cardInfo-wrapper .cardInfo-inputs .mm-yy .yy {
+  background-color: #EEEEEE;
+  border: none;
+  padding: 10px;
+  display: flex;
+  height: 75px;
+  border-radius: 27px;
+  padding-left: 40px;
+  width: 100%;
+}
+
+
+.cardInfo-wrapper .cardInfo-inputs .cc-i23 {
+  display: flex;
+  align-items: center;
+}
+
+.cardInfo-wrapper .input-control .btn1 {
+  color: #DAA520;
+  border: none;
+  background-color: #D3D3D3;
+  height: 48px;
+  height: 31px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.cardInfo-wrapper .cardInfo-inputs .txt-radio_btn {
+  display: flex;
+  gap: 60px;
+  padding-inline: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+}
+
+.cardInfo-wrapper .cardInfo-inputs .txt-radio_btn input {
+  width: 80px;
+
+
+}
+
+.cardInfo-wrapper .cardInfo-inputs .txt-radio_btn input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  transform: scale(1.5);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cardInfo-wrapper .cardInfo-inputs .txt-radio_btn .radiobtn {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.cardInfo-wrapper .cardInfo-inputs .txt-radio_btn p {
+  font-weight: 500;
+  color: #474545;
+  font-size: 18px;
+
+
+}
+
+.cardInfo-wrapper .cardInfo-inputs button {
+  border: none;
+  padding: 10px;
+  height: 70px;
+  border-radius: 27px;
+  padding-inline: 40px;
+  background: #DAA520;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2A353D;
+}
+
+.cardInfo-wrapper .cardInfo-inputs button:hover {
+  background: #b7902f;
+
+}
+
+.cardInfo-wrapper .securepayment {
+  margin-top: 30px;
+  padding-inline: 50px;
+  margin-bottom: 50px;
+}
+.cardInfo-wrapper .securepayment h5{
+font-size: 24px;
+font-weight: 600;
+color: #2A353D;
+}
+
+
+.cardInfo-wrapper .securepayment img{
+  width: 20px;
+  height: 15px;
+  object-fit: contain;
+
+}
+
+.cardInfo-wrapper .securepayment .secure-header .lock {
+
+  background-color: #E35050;
+  border-radius: 50px;
+  padding: 7px;
+}
+
+
+.cardInfo-wrapper .securepayment .secure-header {
+  display: flex;
+  justify-content: space-between;
+}
+.cardInfo-wrapper .securepayment span{
+    font-size: 20px;
+  font-weight: 500;
+  color: #2A353D;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {}
