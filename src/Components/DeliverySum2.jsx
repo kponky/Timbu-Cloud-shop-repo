@@ -1,8 +1,9 @@
 import React from "react";
+import "../Styles/deliverySum.css"
 
 const DeliverySum2 = () => {
   return (
-    <div className="deliverSummary-container">
+    <div className="deliverSummary-container delivery-z">
       <div className="heading">
         <h4>Delivery Summary</h4>
       </div>

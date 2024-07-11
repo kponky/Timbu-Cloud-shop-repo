@@ -145,3 +145,10 @@ height: 20px;
   padding: 5px;
   border-radius: 5px;
 }
+
+.checkout-right{
+  background: #F3F3F3;
+  border-radius: 0 0  5px 5px;
+  padding-bottom: 10px;
+  height: 500px;
+}
