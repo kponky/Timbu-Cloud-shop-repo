@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../Styles/featureProductCard.css'
+import "../Styles/featureProductCard.css";
+import Updates from "./Updates";
+import Footer from "./Footer";
+import Header1 from "./Header1";
 
 const FeaProductCard = (props) => {
   const item = props;
@@ -14,9 +17,8 @@ const FeaProductCard = (props) => {
             <p>{item.description}</p>
           </div>
           <div className="featureProduct-btn">
-          <button>Shop Now</button>
+            <button>Shop Now</button>
           </div>
-         
         </div>
       </Link>
     </div>

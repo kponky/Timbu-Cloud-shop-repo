@@ -1,10 +1,11 @@
 import React from "react";
+import "../Styles/deliverySum.css"
 
 const DeliverySummary = () => {
   return (
     <div className="deliverSummary-container">
       <div className="heading">
-        <h1>Delivery Summary</h1>
+        <h4>Delivery Summary</h4>
       </div>
 
       <div className="delivery-card">
@@ -15,7 +16,7 @@ const DeliverySummary = () => {
           <p>Apply</p>
         </div>
       </div>
-      <span>25% of Discount</span>
+      <span className="discount" >25% of Discount</span>
       <div className="total-details">
         <div>
           <p>Subtotal</p>
@@ -35,8 +36,8 @@ const DeliverySummary = () => {
         </div>
       </div>
       <div className="checkout-btn">
-      <button>Proceed to Checkout</button>
-      <button>Contiue Shopping</button>
+      <button className="btn">Proceed to Checkout</button>
+      <button className="btn2">Contiue Shopping</button>
       </div>
     </div>
   );

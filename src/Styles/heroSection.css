@@ -178,6 +178,8 @@
     display: flex;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
+
   }
 
   .hero-container .hero-header .heroText {
@@ -227,7 +229,7 @@
     padding: 10px;
     width: 60px;
     font-weight: 900;
-    bottom: 180px;
+    bottom: 220px;
     left: 280px;
   }
 
