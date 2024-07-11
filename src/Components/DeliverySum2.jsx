@@ -1,8 +1,6 @@
 import React from "react";
-import "../Styles/deliverySum.css";
-import { Link } from "react-router-dom";
 
-const DeliverySummary = () => {
+const DeliverySum2 = () => {
   return (
     <div className="deliverSummary-container">
       <div className="heading">
@@ -36,17 +34,12 @@ const DeliverySummary = () => {
           <span>N100</span>
         </div>
       </div>
-      <div className="checkout-btn">
-        <Link to="/checkout">
-          <button className="btn">Proceed to Checkout</button>
-        </Link>
 
-        <Link to = "/">
-        <button className="btn2">Contiue Shopping</button>
-        </Link>
+      <div className="checkout-btn">
+        <button className="btn">Pay Order</button>
       </div>
     </div>
   );
 };
 
-export default DeliverySummary;
+export default DeliverySum2;

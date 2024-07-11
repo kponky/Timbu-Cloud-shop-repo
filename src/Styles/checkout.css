@@ -1,0 +1,147 @@
+.checkout-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 62% auto;
+  gap: 1.5rem;
+  margin-top: 40px;
+  padding-inline: 45px;
+  font-family: Lato;
+  margin-bottom: 40px;
+}
+
+.checkout-wrapper .checkout-left .shoppingAddress {
+  background-color: #FEFADB;
+  padding-inline: 20px;
+  border-radius: 5px 5px 0 0;
+  padding-block: 20px;
+
+
+}
+
+.checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 8px;
+}
+
+.checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2A353D;
+}
+
+
+.checkout-wrapper .checkout-left .shoppingAddress .checkoutHeader button{
+  padding: 8px;
+  border-radius: 8px;
+  background: #49494936;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2A353D;
+}
+
+.checkout-wrapper .checkout-left .shoppingAddress .order-name {
+  font-size: 18px;
+  font-weight: 700;
+  padding-block: 5px;
+  color: #2A353D;
+
+}
+
+.checkout-wrapper .checkout-left .shoppingAddress span {
+  font-size: 17px;
+  font-weight: 600;
+  padding-block: 5px;
+  color: #2A353D;
+}
+
+.checkout-wrapper .freeShipping {
+  background-color: #DAA520;
+  color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  padding-block: 20px;
+  justify-content: space-between;
+  padding-inline: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.checkout-wrapper .freeShipping  .left{
+  display: flex;
+  align-items: center;
+}
+.checkout-wrapper .freeShipping  .left p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  
+}
+.checkout-wrapper .freeShipping  .right p{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  
+  
+}
+
+.checkout-wrapper .freeShipping .left img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.checkout-wrapper .paymentMethods{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  align-items: center;
+  margin-top: 20px;
+  padding-block: 30px;
+  background: #F9F4F4;
+  border-radius: 5px;
+}
+
+.checkout-wrapper .paymentMethods  h5{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #DAA520;
+}
+
+.checkout-wrapper .paymentMethods .cards div{
+  display: flex;
+  gap: 10px;
+  padding-block: 8px;
+}
+
+.checkout-wrapper .paymentMethods .cards div img{
+width: 50px;
+height: 20px;
+}
+
+.checkout-wrapper .paymentMethods .selectanother {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #262424;
+  margin-right: 40px;
+
+}
+.checkout-wrapper .paymentMethods .selectanother p:nth-child(1){
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+
+
+  
+}
+.checkout-wrapper .paymentMethods .selectanother p:nth-child(2){
+  font-size: 16px;
+  font-weight: 400; 
+  background: #FFFCE1;  
+  padding: 5px;
+  border-radius: 5px;
+}

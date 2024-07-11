@@ -130,15 +130,16 @@
   display: flex;
   gap: 10px;
   padding-block: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-
+  margin-bottom: 10px;
 }
 
 .cart-item .card-item_detail .card__item1 {
   display: flex;
-  gap: 80px;
+  align-items: center;
+  justify-content: space-between;
   margin-block: 20px;
 }
 
@@ -260,18 +261,14 @@
   gap: 40px;
 }
 
-.summary{
+.summary {
   background: #F3F3F3;
   padding-bottom: 80px;
   border-radius: 5px;
   height: 558px;
-
-
-
-
 }
 
-.payment-cards{
+.payment-cards {
   background: #F3F3F3;
   width: 100%;
   border-radius: 5px;
@@ -287,7 +284,7 @@
     gap: 10px;
     margin-top: 40px;
     padding-inline: 10px;
-
+    overflow-x: hidden;
   }
 
   .cart .cart-card-header {
@@ -311,7 +308,7 @@
 
   .cart .freeShipping {
     padding-inline: 10px;
-    width: 100%;
+    width: 95%;
     gap: 29px;
   }
 
@@ -336,10 +333,8 @@
   }
 
   .cart .cart-items {
- 
     width: 100%;
-  
-  
+
   }
 
 
@@ -400,6 +395,26 @@
   .cart-item .card-item_detail .card__item2 .trash button .icon {
     padding: 6px;
     font-size: 18px;
+
+  }
+
+
+  .right-sum {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .summary {
+    background: #F3F3F3;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    height: 558px;
+  }
+
+  .payment-cards {
+    width: 100%;
 
   }
 
